@@ -1,0 +1,324 @@
+@charset "UTF-8";
+@font-face {
+  font-family: PTSans_Bold;
+  src: url("../fonts/PT_Sans/PT_Sans-Web-Bold.ttf");
+}
+
+@font-face {
+  font-family: PTSans_Regular;
+  src: url("../fonts/PT_Sans/PT_Sans-Web-Regular.ttf");
+}
+
+/* line 14, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+body {
+  font-family: PTSans_Bold, sans-serif;
+}
+
+/* line 17, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.cover-image {
+  background-color: #fcdb00;
+  padding-left: 100px;
+  font-family: PTSans_Bold, sans-serif;
+}
+
+/* line 23, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.margin1 {
+  margin-top: 52px;
+}
+
+/* line 27, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.margin2 {
+  margin-top: 60px;
+}
+
+/* line 31, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.image {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+/* line 37, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.tiny {
+  /*position: relative;
+  top: 0;
+  left: 0;*/
+  /*font-family: $font1;*/
+  font-size: 30px;
+  /*vertical-align: middle;
+  margin-left: 28px;*/
+}
+
+/*.border{
+  border:1px solid black;
+}*/
+/*.cover-left{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}*/
+/* line 58, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.yellow a {
+  display: inline-block;
+  color: #000000;
+  font-size: 22px;
+}
+
+/* line 64, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.header_nav {
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 64, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+  .header_nav {
+    margin-top: 50px;
+  }
+}
+
+/* line 69, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.header_nav li {
+  display: inline-block;
+  margin-right: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 69, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+  .header_nav li {
+    margin-right: 14%;
+  }
+}
+
+/* line 76, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.header_nav li:last-child {
+  margin-right: 0;
+}
+
+/* line 81, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.inspire {
+  margin-top: 75px;
+  padding: 0 70px 0 22px !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* line 81, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+  .inspire {
+    margin-top: 0;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 81, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+  .inspire {
+    margin-bottom: 50px;
+  }
+}
+
+/* line 91, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.inspire h2, .inspire h4, .inspire p {
+  /*padding: 0 70px 0 7px;*/
+}
+
+/* line 94, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.inspire h4, .inspire p {
+  font-family: PTSans_Regular, sans-serif;
+}
+
+/* line 97, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.inspire h2 {
+  margin: 0 0 27px 0;
+}
+
+/* line 100, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.inspire h4 {
+  font-size: 20px;
+  margin: 0 0 27px 0;
+}
+
+/* line 104, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.inspire p {
+  font-size: 16px;
+  color: #555555;
+  margin-bottom: 42px;
+}
+
+/* line 111, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.phone {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 17px;
+}
+
+/* line 118, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.round1, .round2, .round3 {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background: #ffffff;
+  margin-right: 8px;
+}
+
+/* line 127, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.icons {
+  font-size: 40px;
+  padding-left: 7px;
+}
+
+/* line 130, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.icons i {
+  margin-right: 38px;
+}
+
+/* line 135, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.round2, .round3 {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* line 140, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.size {
+  font-size: 45px;
+}
+
+/* line 144, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.footer {
+  background: #000000;
+}
+
+/*.keep_in_touch{
+  h2{
+    color: #fcdb00;
+    text-align: center;
+  }
+}*/
+/*li a{
+  /*list-style: none;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: #fcdb00;
+  border-radius: 5px;
+  :before{
+    content: "";
+  }
+}*/
+/* line 167, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.social li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 32px;
+  font-size: 26px;
+  text-align: center;
+}
+
+/* line 173, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.social li a {
+  /*list-style: none;*/
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: #fcdb00;
+  border-radius: 5px;
+  color: black;
+  /*:before{
+      content: "";
+    }*/
+}
+
+/* line 187, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+li:last-child {
+  margin-right: 0;
+}
+
+/* line 191, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.contacts {
+  color: white;
+  margin-top: 135px;
+}
+
+/* line 196, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.rounds {
+  margin-top: 45px;
+  margin-bottom: 50px;
+}
+
+/* line 201, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* line 207, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.tinyone_features_header {
+  margin-top: 120px;
+}
+
+/* line 209, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.tinyone_features_header h2 {
+  margin: 0;
+}
+
+/* line 212, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.tinyone_features_header h4 {
+  margin: 25px 0 90px;
+  line-height: 25px;
+}
+
+/* line 218, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.fully_responsive {
+  margin-bottom: 78px;
+}
+
+/* line 220, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.fully_responsive h3 {
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+/* line 224, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.fully_responsive p {
+  color: #555555;
+}
+
+/* line 229, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.margin3 {
+  margin-bottom: 90px;
+}
+
+/* line 233, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.email {
+  margin: 44px 0 80px;
+  padding-left: 32px !important;
+  padding-right: 28px !important;
+  height: 50px !important;
+}
+
+/* line 241, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.keep_in_touch h2 {
+  margin: 100px 0 25px;
+  color: #fcdb00;
+  text-align: center;
+}
+
+/* line 246, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+.keep_in_touch h4 {
+  margin: 0;
+  font-size: 20px;
+  color: #555b5C;
+}
+
+/* line 253, C:/Users/konoplya/Desktop/курсы/Задание №8/scss/style8.scss */
+input[type="submit"] {
+  margin-top: 44px;
+  height: 50px;
+  background: #fcdb00;
+  width: 100%;
+  font-family: PTSans_Bold, sans-serif;
+  color: black;
+  border: 0;
+}
+
+/*# sourceMappingURL=../css/style8.map */
